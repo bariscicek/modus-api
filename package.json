@@ -1,0 +1,29 @@
+{
+  "name": "modus-api",
+  "version": "0.0.1",
+  "description": "an API in Node.js that calls the NHTSA NCAP 5 Star Safety Ratings API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bariscicek/modus-api.git"
+  },
+  "author": "Baris Cicek <barisc@yandex.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bariscicek/modus-api/issues"
+  },
+  "homepage": "https://github.com/bariscicek/modus-api#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "request": "^2.82.0"
+  },
+  "devDependencies": {
+    "frisby": "^2.0.5",
+    "jasmine": "^2.8.0",
+    "jasmine-ajax": "^3.3.1",
+    "jasmine-node": "^1.14.5"
+  }
+}
