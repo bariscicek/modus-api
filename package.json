@@ -4,7 +4,8 @@
   "description": "an API in Node.js that calls the NHTSA NCAP 5 Star Safety Ratings API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/bariscicek/modus-api#readme",
   "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "^1.18.1",
     "express": "^4.15.4",
+    "morgan": "^1.8.2",
     "request": "^2.82.0"
   },
   "devDependencies": {

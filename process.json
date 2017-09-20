@@ -1,0 +1,12 @@
+{
+  "apps" : [
+    {
+      "name"        : "modus-api",
+      "script"      : "app",
+      "log_date_format" : "MMM DD HH:mm:ss Z",
+      "env": {
+	"PORT": "8888"
+     }
+    }
+  ]
+}
