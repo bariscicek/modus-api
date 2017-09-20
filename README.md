@@ -83,9 +83,9 @@ to console of server.
 
 ```json
 {
-  Count: 0,
+  "Count": 0,
 
-  Results: []
+  "Results": []
 }
 ```
 * For withRating query, only "true" is valid for enabing ratings of the results.
@@ -152,8 +152,8 @@ to console of server.
 
 ```json
 {
-  Count: 0,
+  "Count": 0,
 
-  Results: []
+  "Results": []
 }
 ```
